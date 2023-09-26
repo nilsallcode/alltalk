@@ -16,7 +16,7 @@ export default function AppLayout ({ children }) {
             <nav className="px-8 py-4 flex justify-between items-center shadow-md">
                 <div className="flex gap-4">
                     <p className="font-semibold">Alltalk</p>
-                    <Link href="" className="text-gray-500 hover:text-gray-800">Home</Link>
+                    <Link href="/app/" className="text-gray-500 hover:text-gray-800">Home</Link>
                     <Link href="" className="text-gray-500 hover:text-gray-800">Explore</Link>
                     <Link href="" className="text-gray-500 hover:text-gray-800">New Post</Link>
                 </div>
@@ -27,7 +27,7 @@ export default function AppLayout ({ children }) {
                     </Link>
                 </div>
             </nav>
-            <main className="px-24">
+            <main className="px-24 bg-gray-200 h-full">
                 {children}
             </main>
         </>
